@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import {
   Button,
   Dialog,
@@ -6,9 +6,11 @@ import {
   DialogBody,
   DialogContent,
   DialogSurface,
+  DialogTitle,
   DialogTrigger,
   Input,
-} from '@fluentui/react-components';
+  Textarea,
+} from "@fluentui/react-components";
 function App() {
   return (
     <>
@@ -26,10 +28,9 @@ const TestDialog = () => {
         <Button appearance="primary">Test me</Button>
       </DialogTrigger>
       <DialogSurface>
+        <DialogTitle>Test</DialogTitle>
         <DialogBody>
-          <DialogContent
-            style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}
-          >
+          <DialogContent>
             <Input />
             <Input />
             <Input />
@@ -39,6 +40,25 @@ const TestDialog = () => {
             <Input />
             <Input />
             <Input />
+            <Input />
+            <Input />
+            <Input />
+            <Input />
+            <Input />
+            <Input />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
+            <Textarea />
           </DialogContent>
           <DialogActions>
             <DialogTrigger>
